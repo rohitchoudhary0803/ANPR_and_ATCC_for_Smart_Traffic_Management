@@ -1,7 +1,10 @@
 # ANPR and ATCC for Smart Traffic Management
 
 ## Project Overview
-This project implements an intelligent traffic management system utilizing Automatic Number Plate Recognition (ANPR) and Automatic Traffic Classification and Control (ATCC). By leveraging Deep Learning and Object Detection techniques, the system automates traffic monitoring and control in smart city environments.
+This project is focused on developing an intelligent traffic management system using Automatic Number Plate Recognition (ANPR) and Automatic Traffic Classification and Control (ATCC). By utilizing Deep Learning and Object Detection techniques, the system automates traffic monitoring and control in smart city environments.
+- ANPR is used to detect and recognize vehicle license plates.
+- ATCC is used to classify different types of traffic.
+The ultimate goal of this project is to improve traffic flow, reduce congestion, and enhance road safety in urban areas.
 
 ### Key Features
 -  Automatic Number Plate Recognition (ANPR)
@@ -10,24 +13,25 @@ This project implements an intelligent traffic management system utilizing Autom
 -  Visualization capabilities
 
 ### Result
-- Result video : ""
+- Result videos : "" and "".
 
-## Project Structure
+## Folder Structure
+The following directory structure is used in this project:
 ```
-├── CV_Basics/                  # Computer vision and OCR learning materials
-├── Data/                       # Input data and videos
-├── Interpolated_results/       # Interpolated CSV files for visualization
-├── number_plate_detection_model_training/  # Model training files
-├── object_tracker/            # Main detection and vehicle tracking code
-├── output_videos/            # Generated result videos
-├── results/                  # Initial detection CSV files
-├── testing/                 # Project testing files
-├── .env                     # Secret keys and configuration
-├── .gitignore              # Git ignore rules
-├── add_missing_data.py     # Data interpolation script
-├── main.py                 # Main execution file
-├── requirements.txt        # Project dependencies
-└── visualize.py           # Video visualization script
+├── CV_Basics/                  # Basic learning of Computer Vision and OCR
+├── Data/                        # Input data or videos
+├── Interpolated_results/        # Interpolated CSV files for visualization
+├── number_plate_detection_model_training/   # Files related to model training
+├── object_tracker/              # Main file for vehicle detection and tracking
+├── output_videos/               # Output videos generated after visualization
+├── results/                     # CSV files for interpolation
+├── testing/                     # Testing files for various project modules
+├── .env                         # Contains secret keys
+├── .gitignore                   # Git ignored files and folders
+├── add_missing_data.py          # Interpolation of data for accurate detection and visualization
+├── main.py                      # Main script to run the system
+├── requirements.txt             # Project dependencies
+└── visualize.py                 # Visualize the output video using interpolated data
 ```
 
 ## Workflow
@@ -35,7 +39,7 @@ This project implements an intelligent traffic management system utilizing Autom
 2. Run `add_missing_data.py` to perform data interpolation and generate enhanced CSV file in `Interpolated_results/` directory
 3. Run `visualize.py` to create visualization video using interpolated data, saved in `output_videos/` directory
 
-## Setup and Installation
+## Installation
 1. Clone the repository:
 ```bash
 git clone [repository-url]
@@ -57,7 +61,7 @@ pip install -r requirements.txt
 - Create a copy of `.env.example` (if provided) and rename it to `.env`
 - Update the necessary secret keys and configurations
 
-## Running the Project
+## How to Run this project
 
 
 1. Replace the path to your input video and your desired output directory.
