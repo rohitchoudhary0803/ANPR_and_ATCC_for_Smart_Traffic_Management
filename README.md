@@ -13,7 +13,7 @@ The ultimate goal of this project is to improve traffic flow, reduce congestion,
 -  Visualization capabilities
 
 ### Result
-- Result videos : "" and "".
+- Result videos : "[Click Here For Video 1](https://drive.google.com/file/d/1YHDEWEz84UbcPJToZjzTVGw28Wil6qK7/view?usp=drive_link)" and "[Click Here For Video 2](https://drive.google.com/file/d/1bvG9D3B7p4hQByGwAQDQEYI9nWeSlSY3/view?usp=drive_link)".
 
 ## Folder Structure
 The following directory structure is used in this project:
@@ -42,8 +42,8 @@ The following directory structure is used in this project:
 ## Installation
 1. Clone the repository:
 ```bash
-git clone [repository-url]
-cd anpr-atcc-traffic-management
+git clone https://github.com/rohitchoudhary0803/Smart-Traffic-Management
+cd Smart-Traffic-Management
 ```
 
 2. Create and activate virtual environment (recommended):
