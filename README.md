@@ -42,8 +42,8 @@ The following directory structure is used in this project:
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/rohitchoudhary0803/Smart-Traffic-Management
-cd Smart-Traffic-Management
+git clone https://github.com/rohitchoudhary0803/ANPR_and_ATCC_for_Smart_Traffic_Management
+cd ANPR_and_ATCC_for_Smart_Traffic_Management
 ```
 
 2. Create and activate virtual environment (recommended):
